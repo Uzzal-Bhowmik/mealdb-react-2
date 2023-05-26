@@ -1,0 +1,23 @@
+.meals-cart {
+    position: sticky;
+    top: 150px;
+    right: 0;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.meals-cart::-webkit-scrollbar-track {
+    padding: 2px 0;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.meals-cart::-webkit-scrollbar {
+    width: 10px;
+    scroll-behavior: smooth;
+}
+
+.meals-cart::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: lightblue;
+    border: 1px solid #000;
+}

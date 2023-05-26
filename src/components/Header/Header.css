@@ -1,0 +1,11 @@
+.nav-link {
+    color: white;
+    font-weight: 500px;
+    font-family: "Poppins";
+    transition: all .5s ease-out;
+}
+
+.nav-link:hover {
+    color: wheat;
+    transition: all .4s ease-in;
+}
